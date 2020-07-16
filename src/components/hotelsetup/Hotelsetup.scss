@@ -1,0 +1,108 @@
+.hotel_setup_body {
+    background: #fafbfc;
+}
+
+.hotelsetup_tabs_container {
+    background: #ffbe66;
+    .hotelsetup_tab {
+        color: #2f455c;
+        &.Mui-selected {
+            background: #d89f53;
+        }
+    }
+}
+.tab_content_container {
+    .page_heading {
+        border-bottom: solid 1px #cecece;
+        padding: 15px;
+        margin-top: 30px;
+    }
+    .description {
+        textarea {
+            width: 100%;
+        }
+        .MuiTextField-root {
+            width: 100%;
+            .MuiInput-multiline {
+                width: 100%;
+            }
+        }
+    }
+    .property_type {
+        // margin-top: 28px;
+    }
+    .MuiGrid-item {
+        margin-bottom: 30px;
+    }
+    .MuiBox-root {
+        margin-bottom: 15px;
+        &.star_rating {
+            margin-bottom: 0px;
+            margin-left: 15px;
+            .txt_legend {
+                font-size: 14px;
+                margin-bottom: 5px;
+            }
+        }
+    }
+    .tbl_distance {
+        .MuiTableCell-head {
+            font-size: 20px;
+        }
+        .MuiTableCell-root {
+            border-bottom: none;
+        }
+    }
+    .btn_section {
+    }
+}
+
+.dist_hotel_container {
+    width: 100%;
+}
+.hand_cursor {
+    cursor: pointer;
+}
+.left_curvy_button {
+    border-top-left-radius: 50px !important;
+    border-bottom-left-radius: 50px !important;
+    white-space: nowrap;
+}
+.right_curvy_button {
+    border-top-right-radius: 50px !important;
+    border-bottom-right-radius: 50px !important;
+    white-space: nowrap;
+}
+
+.tab_btn_setup {
+    width: 200px;
+    font-size: 16px !important;
+}
+.filedropper {
+    .dzu-dropzone {
+        max-height: 200px;
+        overflow: auto;
+        border: dashed 2px rgba(47, 69, 92, 0.3);
+    }
+    .dzu-previewContainer {
+        padding: 15px 10px !important;
+    }
+    .dzu-inputLabel {
+        color: #2f455c;
+    }
+    .dzu-submitButton {
+        background: #2f455c;
+    }
+    .dzu-inputLabelWithFiles {
+        background: #fff;
+        border: solid 1px #5c5c5c;
+        color: #2f455c;
+    }
+}
+
+.delegate_bg_color{
+    background: #f7f7f7;
+}
+.dispflex{
+    display: flex;
+}

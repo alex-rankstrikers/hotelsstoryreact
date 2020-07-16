@@ -1,0 +1,27 @@
+.login_banner {
+    background-image: url(images/login_side_banner.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-repeat: round;
+}
+
+.signup_btn {
+    border-color: #fff !important;
+    color: #fff !important;
+    height: 43px;
+    font-size: 14px !important;
+    margin-top: 5px !important;
+    min-width: 150px !important;
+}
+
+.login_btn {
+    height: 43px;
+    font-size: 16px !important;
+}
+.forgotlinkBox {
+    a {
+        color: #a9a9a9;
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,183 @@
+/*----Function------------------*/
+@function color($color-name) {
+  @return map-get($colors, $color-name)
+};
+/*----fontsize------------------*/
+$class-slug: fsize;
+@for $i from 1 through 100 {
+  .#{$class-slug}-#{$i}{
+    font-size: 0px + $i !important
+  }
+}
+/*----width px------------------*/
+$class-slug: wp;
+@for $i from 1 through 1000 {
+  .#{$class-slug}-#{$i}{
+    width: 0px + $i !important
+  }
+}
+/*----width------------------*/
+$class-slug: w;
+@for $i from 1 through 100 {
+  .#{$class-slug}-#{$i}{
+    width: 0% + $i !important
+  }
+}
+
+/*----height------------------*/
+$class-slug: h;
+@for $i from 1 through 100 {
+  .#{$class-slug}-#{$i}{
+    height: 0% + $i !important
+  }
+}
+/*----height px------------------*/
+$class-slug: hp;
+@for $i from 1 through 1000 {
+  .#{$class-slug}-#{$i}{
+    height: 0px + $i !important
+  }
+}
+/*----margin------------------*/
+$class-slug: m-;
+@for $i from 0 through 100 {
+  .#{$class-slug}-#{$i}{
+    margin: 0px + $i !important
+  }
+}
+/*----margin Top------------------*/
+$class-slug: m-t;
+@for $i from 0 through 100 {
+  .#{$class-slug}-#{$i}{
+    margin-top: 0px + $i !important
+  }
+}
+
+/*----margin Bottom------------------*/
+$class-slug: m-b;
+@for $i from 0 through 100 {
+  .#{$class-slug}-#{$i}{
+    margin-bottom: 0px + $i !important
+  }
+}
+
+/*----margin left------------------*/
+$class-slug: m-l;
+@for $i from 0 through 100 {
+  .#{$class-slug}-#{$i}{
+    margin-left: 0px + $i !important
+  }
+}
+
+/*----margin Right------------------*/
+$class-slug: m-r;
+@for $i from 0 through 100 {
+  .#{$class-slug}-#{$i}{
+    margin-right: 0px + $i !important
+  }
+}
+/*----Padding------------------*/
+$class-slug: p;
+@for $i from 0 through 100 {
+  .#{$class-slug}-#{$i}{
+    padding: 0px + $i !important
+  }
+}
+/*----Padding Top------------------*/
+$class-slug: p-t;
+@for $i from 0 through 100 {
+  .#{$class-slug}-#{$i}{
+    padding-top: 0px + $i !important
+  }
+}
+
+/*----Padding Bottom------------------*/
+$class-slug: p-b;
+@for $i from 0 through 100 {
+  .#{$class-slug}-#{$i}{
+    padding-bottom: 0px + $i !important
+  }
+}
+
+/*----padding left------------------*/
+$class-slug: p-l;
+@for $i from 0 through 100 {
+  .#{$class-slug}-#{$i}{
+    padding-left: 0px + $i !important
+  }
+}
+
+/*----paddingn Right------------------*/
+$class-slug: p-r;
+@for $i from 0 through 100 {
+  .#{$class-slug}-#{$i}{
+    padding-right: 0px + $i !important
+  }
+}
+
+// Border-radius
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  border-radius: $radius;
+  background-clip: padding-box;
+}
+
+// Single side border-radius
+@mixin border-top-radius($radius) {
+  -webkit-border-top-right-radius: $radius;
+  border-top-right-radius: $radius;
+  -webkit-border-top-left-radius: $radius;
+  border-top-left-radius: $radius;
+  background-clip: padding-box;
+}
+
+@mixin border-right-radius($radius) {
+  -webkit-border-bottom-right-radius: $radius;
+  border-bottom-right-radius: $radius;
+  -webkit-border-top-right-radius: $radius;
+  border-top-right-radius: $radius;
+  background-clip: padding-box;
+}
+
+@mixin border-bottom-radius($radius) {
+  -webkit-border-bottom-right-radius: $radius;
+  border-bottom-right-radius: $radius;
+  -webkit-border-bottom-left-radius: $radius;
+  border-bottom-left-radius: $radius;
+  background-clip: padding-box;
+}
+
+@mixin border-left-radius($radius) {
+  -webkit-border-bottom-left-radius: $radius;
+  border-bottom-left-radius: $radius;
+  -webkit-border-top-left-radius: $radius;
+  border-top-left-radius: $radius;
+  background-clip: padding-box;
+}
+
+/*css-scrollbar*/
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #666666; /*e1e1e1*/
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e1e1e1;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #ccc;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}

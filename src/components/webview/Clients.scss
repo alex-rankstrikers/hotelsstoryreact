@@ -1,0 +1,26 @@
+.responsive_slider {
+    .slick-slider {
+        width: 96%;
+        margin: 0 auto;
+        .slick-list {
+            .slick-slide {
+                padding:20px 0px;
+                div {
+                    div {
+                        display: flex !important;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+                img {
+                    width: 140px;
+                }
+            }
+        }
+    }
+}
+
+.slick-next:before,
+.slick-prev:before {
+    color: #f95665;
+}

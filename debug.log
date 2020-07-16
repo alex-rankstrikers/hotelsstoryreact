@@ -1,0 +1,7 @@
+[0702/131826.203:WARNING:minidump_to_upload_parameters.cc(36)] duplicate key guid, discarding value 64c97592-a584-4448-8ade-b8f4a9d0b3d6
+[0702/132605.361:WARNING:minidump_to_upload_parameters.cc(36)] duplicate key guid, discarding value 64c97592-a584-4448-8ade-b8f4a9d0b3d6
+[0706/095646.391:WARNING:minidump_to_upload_parameters.cc(36)] duplicate key guid, discarding value 64c97592-a584-4448-8ade-b8f4a9d0b3d6
+[0714/110718.468:ERROR:file_io.cc(134)] WriteFile: The pipe is being closed. (0xE8)
+[0715/230620.432:WARNING:minidump_to_upload_parameters.cc(36)] duplicate key guid, discarding value 9d22318d-38b6-4254-af3f-65e7588f2f62
+[0715/231312.121:WARNING:minidump_to_upload_parameters.cc(36)] duplicate key guid, discarding value 9d22318d-38b6-4254-af3f-65e7588f2f62
+[0716/115352.153:WARNING:minidump_to_upload_parameters.cc(36)] duplicate key guid, discarding value 9d22318d-38b6-4254-af3f-65e7588f2f62

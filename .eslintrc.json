@@ -1,0 +1,76 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "jest": true
+      },
+      "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+      ],
+      "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly",
+        "process": "readonly"
+      },
+      "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+      },
+      "plugins": [
+        "react"
+      ],
+      "settings": {
+        "react": {
+          "version": "detect"
+        }
+      },
+      "parser": "babel-eslint",
+      "rules": {
+        //errros
+        "quotes": ["error", "single"],
+        "no-duplicate-case": "error",
+        "no-empty": "error",
+        "no-empty-character-class": "error",
+        "no-extra-semi": "error",
+        "no-inner-declarations": "error",
+        "no-invalid-regexp": "error",
+        "no-irregular-whitespace": "error",
+        "no-misleading-character-class": "error",
+        "no-obj-calls": "error",
+        "no-prototype-builtins": "error",
+        "no-regex-spaces": "error",
+        "no-sparse-arrays": "error",
+        "no-template-curly-in-string": "error",
+        "no-unexpected-multiline": "error",
+        "no-unreachable": "error",
+        "no-unsafe-finally": "error",
+        "no-unsafe-negation": "error",
+        "no-useless-constructor": "error",
+        "no-func-assign": "error",
+        "no-multi-spaces": ["error", {
+          "ignoreEOLComments": false
+        }],
+        "no-multi-str": "error",
+        "no-empty-pattern": "error",
+        "no-unused-labels": "error",
+        "no-useless-call": "off",
+        "no-useless-catch": "warn",
+        "no-useless-concat": "error",
+        "no-useless-escape": "error",
+        "no-useless-return": "error",
+        "eol-last": ["error", "always"],
+        "no-trailing-spaces": "error",
+        "indent": ["error", 2],
+        "semi": ["error", "never"],
+        "prefer-const": "error",
+    
+        //off
+        "no-case-declarations": "off",
+        "react/no-unescaped-entities": "off",
+        "no-console": "off"
+      }
+}

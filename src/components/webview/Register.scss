@@ -1,0 +1,71 @@
+.login_banner {
+    background-image: url(images/login_side_banner.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-repeat: round;
+}
+
+.signup_btn {
+    border-color: #fff !important;
+    color: #fff !important;
+    height: 43px;
+    font-size: 14px !important;
+    margin-top: 5px !important;
+    min-width: 150px !important;
+}
+
+.login_btn {
+    height: 43px;
+    font-size: 16px !important;
+}
+.forgotlinkBox {
+    a {
+        color: #a9a9a9;
+        text-decoration: none;
+    }
+}
+.register_Page {
+    .login_banner {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+    }
+}
+.right_container {
+    margin-left: 25%;
+}
+
+.register_tabs {
+    button {
+        width: auto;
+        padding: 0px 0px;
+        min-width: 100px;
+        color: #fff;
+        opacity: 1;
+        font-weight: normal;
+        font-size: 18px;
+    }
+    .MuiTabs-flexContainer {
+        justify-content: space-around;
+        background: rgba(255, 255, 255, 0.12);
+    }
+}
+.reg_tabPanel_handle {
+    padding: 0px;
+    margin-top: 10px;
+    .MuiBox-root {
+        padding: 0px !important;
+    }
+}
+.tab_content {
+    width: 90% !important;
+    margin: 0 auto;
+    font-size: 20px !important;
+    font-weight: 300;
+    padding: 0px !important;
+}
+
+.register_tabs button.Mui-selected .MuiTab-wrapper {
+    border-bottom: solid 2px #fff;
+}
